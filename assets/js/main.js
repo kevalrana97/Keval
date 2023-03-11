@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
-	var mastheadheight = $('.ds-header').outerHeight();
-	console.log(mastheadheight);
+	var mastheadheight = $('.ds-header').outerHeight(true);
+	// console.log(mastheadheight);
 	$(".ds-banner,.ds-main-section").css("margin-top" , mastheadheight);
 
 	$(window).scroll(function(){
